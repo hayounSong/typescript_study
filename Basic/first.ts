@@ -14,6 +14,7 @@ const js=()=>{}
 
 function add_simple(x:number,y:number){return x+y};
 const result=add_simple(1,2);
+//이러한 경우에도 정상적으로 인식한다. 타입이 any로 나오면 수정하는 과정을 거치도록 하자.
 
 // function add(x: number, y: number): number { return x + y }
 // const add: (x: number, y: number) => number = (x, y) => x + y;
@@ -27,3 +28,14 @@ const arr:string[]=['123','456']
 const arr2:Array<string>=['123','456'] 
 //generic식 선언 방법
 const tuple:[number,number,string]=[123,456,'helo'];
+
+
+type Add3= ()=> number;
+interface Mins{}
+Array<string>
+
+
+function add4(x:number,y:number):number;
+add4(x,y){
+    return x+y;
+}

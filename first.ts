@@ -1,4 +1,4 @@
-const a: number = 5;
+const a = '5';
 const b:number=5;
 const c:boolean=true;
 const d:undefined=undefined;
@@ -6,7 +6,14 @@ const e:null=null;
 const f:any= '123'; 
 // any는 모든타입이 다되는것, ts에선 사용을 자제하자.
 
+const t:5=5; 
+//값 고정
+
 const js=()=>{}
+
+
+function add_simple(x:number,y:number){return x+y};
+const result=add_simple(1,2);
 
 // function add(x: number, y: number): number { return x + y }
 // const add: (x: number, y: number) => number = (x, y) => x + y;

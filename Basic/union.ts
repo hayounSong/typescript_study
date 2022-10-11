@@ -22,4 +22,28 @@ add_u(1,'2')
 
 
 type Au={hello:'world'}&{zero:'cho'};
+// type Au={hello:'world'}|{zero:'cho'};
+// and일때와 or일떄 주의하기, and 일때는 모든 속성이 다 있어야 한다.
 const at:Au={hello:'world',zero:'cho'};
+
+
+type Animal={breath:true};
+type Poyoryu=Animal&{breed:true};
+type Human=Poyoryu&{think:true};
+//이런식으로 타입을 상속의 개념으로도 사용이 가능하다.
+
+const zerocho:Human={breath:true,breed:true,think:true};
+
+
+interface A3{
+    breath:true
+}
+
+interface B extends A3{
+    breed:true
+}
+// 이렇게 interface에서도 상속 가능. 보통 간단하게 사용할때 타입을 사용하고,
+// 명확한 코딩을 위해서는 인터페이스를 사용한다.
+
+
+// 단, 명확하게 둘이 구분되어 있는것은 아니다. 

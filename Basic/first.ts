@@ -34,8 +34,8 @@ type Add3= ()=> number;
 interface Mins{}
 Array<string>
 
+let aa=123;
 
-function add4(x:number,y:number):number;
-add4(x,y){
-    return x+y;
-}
+aa='helo' as unknown as number;
+
+//앞의 타입을 강제로 바꿔주는 as

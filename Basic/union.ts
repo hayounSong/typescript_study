@@ -4,7 +4,7 @@ const a3:A={a3:'hello'};
 // 변수 인라인하듯이 타입 선언, 간단하다.
 
 interface B {a3:string};
-const b3:B={a3:'hello'};
+
 
 // 자바의 객체 지향 영역들이 포함됨, 객체 지향 프로그래밍이 가능하다.
 

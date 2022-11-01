@@ -19,6 +19,7 @@ const arr = ['123', '456'];
 const arr2 = ['123', '456'];
 //generic식 선언 방법
 const tuple = [123, 456, 'helo'];
+
 Array;
 add4(x, y);
 {

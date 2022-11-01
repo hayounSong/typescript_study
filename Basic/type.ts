@@ -18,6 +18,7 @@ const a1: World='world';
 
 type Greeting=`hello ${World}`;
 const c1:Greeting='hello world';
+const c4:Greeting='hello world'
 
 //이런식으로도 사용가능! Greeting이란 type은 이 경우, hello World가 된다!
 //자동완성 기능 역시 에디터 사용시 제공한다.

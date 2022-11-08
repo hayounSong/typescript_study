@@ -45,3 +45,11 @@ const aaa:Array1<number>=[1,2,3];
 const strings=[1,2,3].map((item=>item.toString));
 
 //item 을 number로 잘받게된다!
+
+const strings2=[1,2,3].map((item=>item+1));
+
+//이경우 string2는 number로 성공적으로 타입추론을 하게 된다.
+
+const filterd=[1,2,'3',4,5].filter((value)=>typeof value==='string');
+
+//따라서, generic 하면서 커스텀 타입 설정이 필요하다!

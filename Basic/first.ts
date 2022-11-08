@@ -25,7 +25,7 @@ const add:Add = (x, y) => x + y;
 
 const obj: { lat: number, lon: number } = { lat: 37.5, lon: 127.5 };
 const arr:string[]=['123','456']
-const arr2:Array<string>=['123','456'] 
+// const arr2:Array<string>=['123','456'] 
 //generic식 선언 방법
 const tuple:[number,number,string]=[123,456,'helo'];
 

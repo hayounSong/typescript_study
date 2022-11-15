@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="letter.css" type="text/css">
+</head>
+<body style="background-color: red;">
+    
+    <div>
+        <img class="letter_home"src="../photo.png">
+    </div>
+
+    <div class="letter_close">
+        <img src="dolph.png">
+        <div class="messagebox">
+            여러분 안녕하세요. 저는 우리 타스 스터디 과제를 하루 하지 않아서 이런걸 만들고 있어요<br/>
+            이걸 만들면서 느낀게, 정말 다시는 과제를 뺴먹지 않아야 겠다는 생각이 들었어요.<br/>
+            아 맞다 여러분 곧 크리스마스인데 크리스마스 계획은 있으신가요?? 전 버거킹에서 패티를 굽고 있을거에요<br/>
+            다들 따뜻한 크리스마스 되시고.. 저는 참고로 이거를 학교 강의 시간에 만들고 있어요<br/>
+            여러분.....대체 종강이란건 언제하는걸까요? 너무 힘드네요 술이 고프네요<br/>
+            쓰기가 애매해서 아무말 대잔치를 하고 있는데, <br/>
+            세미나는 역시 혜화에서 하는게 집중이 잘되지 않나요?? 그럼 여러분 좀 있다 보아요
+
+        </div>
+    </div>
+</body>
+
+<script>
+
+    const a=document.querySelector(".letter_home")
+    const b=document.querySelector(".letter_close")
+
+    function dd(){
+        a.classList.add("letter_close")
+        b.classList.add("letter_open")
+    }
+    a.addEventListener("click",()=>dd())
+</script>
+</html>
